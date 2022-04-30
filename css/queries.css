@@ -1,0 +1,30 @@
+.steps, body {
+    min-width: fit-content;
+}
+
+
+@media screen and (max-width: 1140px) and (min-width: 769px) {
+    
+    .container {
+        max-width: 1140px;
+    }
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    .row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .col {
+        flex-grow: 0;
+    }
+
+    .container {
+        max-width: 768px;
+    }
+}
+
+
+
